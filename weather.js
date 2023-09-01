@@ -6,7 +6,7 @@ const port = 3000;
 const app = express();
 
 
-const API_KEY = "openuv-4wp9mrlm07njgt-io";
+const API_KEY = "";
 
 // const BASE_URL = "https://api.openuv.io/api/v1/uv?lat=:lat&lng=:lng&alt=:alt&dt=:dt";
 const BASE_URL = "https://api.openuv.io/api/v1/uv";
