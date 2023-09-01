@@ -16,7 +16,7 @@ app.get("/", async (req, res) => {
     res.render("index.ejs", {content: JSON.stringify(result.data)});
 });
 
-// Render the home page with given criteria
+// Render the home page with given criteria (category and type)
 app.post("/aJoke", async (req, res) => {
     const category = req.body.category;
     const type = req.body.type;
